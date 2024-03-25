@@ -1,0 +1,136 @@
+
+ [
+    {
+        "id": 1,
+        "title": "Food Drive for Homeless Shelter",
+        "price": "$1025",
+        "cardBg": "#D9E5FF", 
+        "textColor": "#6D9CFF", 
+        "categorybg": "#AEC8FF",
+        "category": "Food",
+        "images": ["https://i.ibb.co/YLjQMct/manpic.jpg"],
+        "description": "Collecting non-perishable food items for homeless shelters in the local area."
+    },
+    {
+        "id": 2,
+        "title": "Clothing Donation for Orphanage",
+        "price": "$1500",
+        "cardBg": "#FFE3E4", 
+        "textColor": "#FF585E", 
+        "categorybg": "#FFC3C5",
+        "category": "Clothing",
+        "images": ["https://i.ibb.co/rcZykmr/istockphoto-1283154274-612x612.jpg"],
+        "description": "Accepting gently used clothing donations for children living in orphanages."
+    },
+    {
+        "id": 3,
+        "title": "Book Drive for Rural Schools",
+        "price": "$425",
+        "cardBg": "#EBF6E2", 
+        "textColor": "#88C954", 
+        "categorybg": "#D4ECC1",
+        "category": "Education",
+        "images": ["https://i.ibb.co/W3mBVVm/Whats-App-Image-2020-06-28-at-18-29-04-1.jpg"],
+        "description": "Gathering books for underprivileged schools in rural areas to promote literacy."
+    },
+    {
+        "id": 4,
+        "title": "Medical Supplies for Disaster Relief",
+        "price": "$185",
+        "cardBg": "#FEEAE3", 
+        "textColor": "#F9805A", 
+        "categorybg": "#FDD2C4",
+        "category": "Health",
+        "images": ["https://i.ibb.co/gjLhFFK/CCAC-1024x768.jpg"],
+        "description": "Collecting medical supplies and equipment to aid disaster relief efforts in affected regions."
+    },
+    {
+        "id": 5,
+        "title": "Toy Donation for Children's Hospital",
+        "price": "$235",
+        "cardBg": "#FEEAE3", 
+        "textColor": "#F9805A", 
+        "categorybg": "#FDD2C4",
+        "category": "Children",
+        "images": ["https://i.ibb.co/gzNJVnt/gettyimages-492418964-612x612.jpg"],
+        "description": "Donating toys and games to bring joy to children staying in hospitals during their treatment."
+    },
+    {
+        "id": 6,
+        "title": "Environmental Cleanup Campaign",
+        "price": "$725",
+        "cardBg": "#EBF6E2", 
+        "textColor": "#88C954", 
+        "categorybg": "#D4ECC1",
+        "category": "Environment",
+        "images": ["https://i.ibb.co/JpQn7Mw/Content-1-1024x576.webp"],
+        "description": "Organizing a community cleanup to preserve and protect local natural environments."
+    },
+    {
+        "id": 7,
+        "title": "Blood Donation Drive",
+        "price": "$150",
+        "cardBg": "#FFE3E4", 
+        "textColor": "#FF585E", 
+        "categorybg": "#FFC3C5",
+        "category": "Health",
+        "images": ["https://i.ibb.co/KGzjkxw/Blood-Donation-732-X549-thumbnail.jpg"],
+        "description": "Encouraging individuals to donate blood to support hospitals and patients in need."
+    },
+    {
+        "id": 8,
+        "title": "Computer Donation for Schools",
+        "price": "$320",
+        "cardBg": "#D9E5FF", 
+        "textColor": "#6D9CFF", 
+        "categorybg": "#AEC8FF",
+        "category": "Education",
+        "images": ["https://i.ibb.co/HF0FbBz/Norton-Hill-Computer-donation-750x450.jpg"],
+        "description": "Providing refurbished computers to schools lacking adequate technology resources."
+    },
+    {
+        "id": 9,
+        "title": "Warm Clothing Drive for Winter",
+        "price": "$550",
+        "cardBg": "#D9E5FF", 
+        "textColor": "#6D9CFF", 
+        "categorybg": "#AEC8FF",
+        "category": "Clothing",
+        "images": ["https://i.ibb.co/Rh75SHL/annual-warm-winter-clothing-drive-e1b2b42d-01d6-43a0-bef9-e84136919fbc-tmb-cfthumb-l.webp"],
+        "description": "Collecting warm clothing items like coats, gloves, and scarves for those in need during the winter season."
+    },
+    {
+        "id": 10,
+        "title": "Community Kitchen Renovation Fund",
+        "price": "$300",
+        "cardBg": "#FFE3E4", 
+        "textColor": "#FF585E", 
+        "categorybg": "#FFC3C5",
+        "category": "Food",
+        "images": ["https://i.ibb.co/5WtcrRB/vka-soup-8707.jpg"],
+        "description": "Raising funds to renovate a community kitchen to better serve those experiencing food insecurity."
+    },
+    {
+        "id": 11,
+        "title": "Support for Elderly Care Facilities",
+        "price": "$250",
+        "cardBg": "#EBF6E2", 
+        "textColor": "#88C954", 
+        "categorybg": "#D4ECC1",
+        "category": "Elderly",
+        "images": ["https://i.ibb.co/nC9n0PT/download.jpg"],
+        "description": "Providing financial support and supplies to elderly care facilities to enhance the quality of life for seniors."
+    },
+    {
+        "id": 12,
+        "title": "Hygiene Product Drive for Women's Shelter",
+        "price": "$125",
+        "cardBg": "#FEEAE3", 
+        "textColor": "#F9805A", 
+        "categorybg": "#FDD2C4",
+        "category": "Hygiene",
+        "images": ["https://i.ibb.co/Tbq8wxj/images-3.jpg"],
+        "description": "Collecting hygiene products such as toiletries and menstrual items for women in shelters."
+    }
+]
+
