@@ -5,6 +5,7 @@ import './index.css'
 
 import { RouterProvider } from 'react-router-dom';
 import router from './Routes/Routes';
+// eslint-disable-next-line no-unused-vars
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

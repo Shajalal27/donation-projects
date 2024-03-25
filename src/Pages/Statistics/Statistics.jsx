@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 
 import useDonationData from '../../Hooks/useDonationData';
 import useLocalStorage from '../../Hooks/useLocalStorage';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 
 
 const Statistics = () => {

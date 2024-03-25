@@ -12,7 +12,7 @@ const CategoryList = ({ filteredData, loading }) => {
     
     // console.log(data);
     return (
-        <div className="grid grid-cols-4 gap-8 max-w-7xl mx-auto py-4 mt-12">
+        <div className="grid lg:grid-cols-4 grid-cols-1 gap-8 max-w-7xl mx-auto py-4 mt-12">
             {
                 filteredData.map((item) =><CardDefault key={item.id} item={item}/>)
             }

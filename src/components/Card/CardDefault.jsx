@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
         <Link to={`/donation-details/${id}`}>
             <Card style={{backgroundColor:cardBg}} className="mt-6 overflow-hidde cursor-pointer ">
               <CardHeader color="blue-gray" className="relative  rounded-lg m-0">
-                <img className=""
+                <img className="w-full"
                   src={images}
                   alt="card-image"
                 />

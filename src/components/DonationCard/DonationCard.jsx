@@ -9,7 +9,7 @@ import {
 
 const DonationCard = ({ data }) => {
     // eslint-disable-next-line no-unused-vars
-    const {id, title, category, images, price, cardBg, categorybg, textColor} = data || {};
+    const { title, category, images, price, cardBg, categorybg, textColor} = data || {};
     return (
         <Card style={{backgroundColor:cardBg}} className="w-full max-w-[48rem] flex-row">
             <CardHeader

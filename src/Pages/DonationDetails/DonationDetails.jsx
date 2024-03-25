@@ -52,7 +52,7 @@ const DonationDetails = () => {
                 src={images}
                 alt="ui/ux review check"
             />
-            <div className="absolute bottom-0 w-full h-28 pl-8 opacity-65 bg-black">
+            <div className="absolute bottom-0 w-full h-28 pl-8 opacity-85 bg-black">
             <Button onClick={handleDonate}
             style={{backgroundColor:textColor}} className="mt-8 rounded-sm capitalize text-xl " size="md">Donate {price}</Button>
             </div>

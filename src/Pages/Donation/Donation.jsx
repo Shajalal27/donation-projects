@@ -22,7 +22,7 @@ const Donation = () => {
     return (
         <>
              <div className="max-w-7xl mx-auto">Donate Count:<span>{localData.length}</span> </div>
-            <div className="mt-12 max-w-7xl mx-auto grid grid-cols-2 gap-8">
+            <div className="mt-12 max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-8">
             
             {
                 localData.slice(0, showAll? localData.length: 4).map( (data) => <DonationCard key={data.id} data={data}/>)
