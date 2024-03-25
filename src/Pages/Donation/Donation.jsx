@@ -9,10 +9,14 @@ const Donation = () => {
 
     const { localData } = useLocalStorage();
     const [showAll, setShowAll] = useState(false);
-    console.log(localData);
+    // console.log(localData);
 
     const handleShowAll = () =>{
         setShowAll(!showAll)
+    }
+
+    if(localData.length == 0){
+        return <p>No Data Found.....</p>
     }
 
     return (
@@ -24,11 +28,15 @@ const Donation = () => {
                 localData.slice(0, showAll? localData.length: 4).map( (data) => <DonationCard key={data.id} data={data}/>)
             }
         </div>
-            <div className="text-center mt-8">
+            {
+              localData.length > 4 ?(
+             <div className="text-center mt-8">
                 <Button onClick={handleShowAll} color="green">
                     {!showAll? "ShowAll": "ShowLess"}
                 </Button>
-            </div>
+             </div>
+              ) : null  
+            }
         </>
     );
 };

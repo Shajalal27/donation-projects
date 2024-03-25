@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 export const saveToLocalStorage = (data) =>{
     const savedData = JSON.parse(localStorage.getItem("donate")) || [];
 
@@ -5,10 +7,10 @@ export const saveToLocalStorage = (data) =>{
     if(!existedData){
         savedData.push(data);
         localStorage.setItem("donate", JSON.stringify(savedData));
-        alert("Added successfully to local storage...");
+        toast.success("Added successfully to local storage...");
     }
     else{
-        alert("already donate exists");
+        toast.warning("already donate exists");
     } 
 }
 

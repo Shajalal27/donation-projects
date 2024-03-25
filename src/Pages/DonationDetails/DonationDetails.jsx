@@ -11,6 +11,7 @@ import { useParams } from "react-router-dom";
 import useDonationData from "../../Hooks/useDonationData";
 import { useEffect, useState } from "react";
 import { saveToLocalStorage } from "../../Utils/localStorage";
+import CustomSpinner from "../../components/CustomSpinner/CustomSpinner";
 
 
 const DonationDetails = () => {
@@ -23,18 +24,21 @@ const DonationDetails = () => {
         saveToLocalStorage(singleData)
     }
 
-    console.log(typeof id, singleData);
+    // console.log(typeof id, singleData);
 
     useEffect( () =>{
         if(data){
             const singleData = data.find(item =>item.id == id);
             console.log(singleData);
             setSingleData(singleData);
-
         }
     }, [data, id])
 
     const { title, price, images, description,  textColor} = singleData || {};
+
+    if(loading){
+        return <CustomSpinner/>
+    }
 
     return (
         <Card className="mt-12 w-full shadow-none rounded-md overflow-hidden lg:px-20">
